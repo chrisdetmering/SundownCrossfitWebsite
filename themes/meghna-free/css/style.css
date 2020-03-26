@@ -36,6 +36,10 @@ p {
   font-family: "Quattrocento Sans", sans-serif;
 }
 
+.black-text {
+  color: #000; 
+ }
+
 /*=================================================================
   Basic Setup
 ==================================================================*/
@@ -912,7 +916,7 @@ a:hover {
 }
 
 /*=================================================================
-  Item counter section
+  Schedule Section
 ==================================================================*/
 .weightlift-icon { 
   color: white;
@@ -942,6 +946,19 @@ a:hover {
 .counters-item h3 {
   font-size: 20px;
   margin: 0;
+}
+
+.mon-fri-sched > h3, h2{ 
+  color: white; 
+}
+
+.sat-sched > h3, h2 { 
+  color: white; 
+}
+
+.divide { 
+  width: 100px; 
+  padding: 10px 0 0 0; 
 }
 
 /*=================================================================
@@ -1173,7 +1190,9 @@ a:hover {
 .team-member {
   background-color: white; 
   margin-bottom: 10px;
+  color: black; 
 }
+
 
 .team-member:hover .mask {
   cursor: pointer;
